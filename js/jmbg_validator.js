@@ -10,6 +10,7 @@ function checkJMBG() {
 
         if ((m === 0 && k != 0) || (m === 1) || (m > 1 && k != (11 - m))) {
             msg.innerHTML = "Maticni broj je pogresan!"
+            return
         }
         parseJMBG();
     } else {
